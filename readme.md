@@ -9,13 +9,13 @@
 
   [![Status](https://img.shields.io/badge/status-active-success?style=flat-square)]() 
   [![SwagLabs](https://img.shields.io/endpoint?url=https://cloud.cypress.io/badge/detailed/z95zh1&style=flat-square&logo=cypress)](https://cloud.cypress.io/projects/z95zh1/runs)
-  [![GitHub Issues](https://img.shields.io/github/issues/rafaelnagao/Placekitten?color=FF0000&style=flat-square)](https://github.com/rafaelnagao/SwagLabs/issues)
+  [![GitHub Issues](https://img.shields.io/github/issues/rafaelnagao/SwagLabs?color=FF0000&style=flat-square)](https://github.com/rafaelnagao/SwagLabs/issues)
 
 </div>
 
 ---
 
-<p align="center"> This is an E2E testing for the website Placekitten. It's a simple website with cute cat images. MEOW! 🐱
+<p align="center"> This is an E2E testing for the website SwagLabs. It's a fake website for testing purposes. ENJOY! 😊
     <br> 
 </p>
 
@@ -23,16 +23,16 @@
 - [About](#about)
 - [Getting Started](#getting_started)
 - [Built Using](#built_using)
-- [Authors](#authors)
+- [Author](#author)
 - [Acknowledgments](#acknowledgement)
 
 ## 🧐 About <a name = "about"></a>
-This test was created to practice the concepts and ways of creating automated tests in Cypress. I'm new to automated testing, so I'm still learning.
+This test was created to practice the concepts and ways of creating automated tests in Cypress.
 
-I created this test to validate the website Placekitten.com, which is a fake website for tests, with images, texts and links to be validated. And who doesn't like cute cats? 
+I created this test for a job vacancy test. I hope the evaluators understand that I'm just starting out and I still have a lot to learn. 
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 ### ⛏️ Prerequisites
 This test was built using:
@@ -58,19 +58,19 @@ This creates a new subdirectory named .git that contains all of your necessary r
 You clone a repository with git clone <url>. For example, if you want to clone the Git linkable library called libgit2, you can do so like this:
 
 ```
-$ git clone https://github.com/rafaelnagao/Placekitten.git
+$ git clone https://github.com/rafaelnagao/SwagLabs.git
 ```
 
 or by SSH (if you already have a key configured)
 
 ```
-$ git clone git@github.com:rafaelnagao/Placekitten.git
+$ git clone git@github.com:rafaelnagao/SwagLabs.git
 ```
 
 Open your cloned local directory and enjoy!
 
 ## 🔧 Running the tests <a name = "tests"></a>
-The tests are in the directory "~/Placekitten/cypress/e2e/placekitten.cy.js"
+The tests are in the directory "~/SwagLabs/cypress/e2e/SwagLabs.cy.js"
 
 You can go to the terminal and open Cypress or run it through the terminal itself.
 
@@ -83,11 +83,15 @@ npx cypress run
 ```
 
 ### Break down into end to end tests
-The tests will certify that all elements are present within the Placekitten page.
+This test will test the login screen, with one login failed and another successful.
 
-However, there are two steps that I skipped, as the page contains an API error, in which it loads the page, but Cypress cannot load it, as it does not receive the response that it has been loaded.
+Another step will be to test include 3 items in the shopping cart, delete one of them and finalize the purchase.
 
-## ✍️ Authors <a name = "authors"></a>
+The website possibly has an API issue, because it returns a site that is not secure, even though it is accessed as safe in the common browser.
+
+I could possibly be wrong too, but the main mistake is that Cypress doesn't recognize page loading and returns an error.
+
+## ✍️ Author <a name = "author"></a>
 - [@rafaelnagao](https://github.com/rafaelnagao) - QA Analyst
 
 ## 🎉 Acknowledgements <a name = "acknowledgement"></a>
